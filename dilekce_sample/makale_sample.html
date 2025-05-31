@@ -1,0 +1,109 @@
+<!-- Sayfanın tümünde kopyalamayı engelle -->
+<div oncopy="return false" onselectstart="return false" oncontextmenu="return false" style="user-select: none;">
+
+  <!-- Dilekçe kutusu -->
+  <div id="ek2" style="border: 1px solid #BD9D60; border-radius: 12px; background-color: #fff; padding: 30px 40px; margin-top: 50px; box-shadow: 0 8px 16px rgba(0,0,0,0.08); font-family: Georgia, serif; color: #182434; line-height: 1.8; user-select: text; position: relative;">
+
+    <!-- SAĞ ÜST BUTON (başlıkla çakışmaz) -->
+    <button onclick="kopyalaDilekce()" style="position: absolute; top: 70px; right: 20px; background-color: #182434; color: white; border: none; padding: 8px 14px; border-radius: 8px; font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 6px; font-family: 'Segoe UI', sans-serif; font-weight: 500; transition: background-color 0.3s;">
+      <span style="font-size: 16px;">📄</span> Dilekçeyi Kopyala
+    </button>
+
+    <!-- BAŞLIK -->
+    <h2 style="font-size: 24px; color: #BD9D60; text-align: center; margin-bottom: 20px;">
+      EK-2: Savurganlık Nedeniyle Vasi Atanması Talebi – Örnek Dava Dilekçesi
+    </h2>
+
+    <!-- MAHKEME -->
+    <div style="text-align: center; font-weight: bold; margin-bottom: 30px;">
+      <u>SULH HUKUK MAHKEMESİ HAKİMLİĞİNE</u>
+    </div>
+
+    <!-- KİMLİK BİLGİLERİ -->
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 30px;">
+      <div><u style="display: inline-block; width: 180px;">DAVACI (VASİ ADAYI)</u>: …</div>
+      <div><u style="display: inline-block; width: 180px;">VEKİLİ</u>: Av. Furkan Engin</div>
+      <div><u style="display: inline-block; width: 180px;">KISITLI ADAYI</u>: …</div>
+      <div><u style="display: inline-block; width: 180px;">DAVA KONUSU</u>: Savurganlık ve malvarlığını kötü yönetme nedenine dayanarak, TMK m.406 kapsamında müvekkilin [anne/baba/kardeş]’ine vasi atanması talebidir.</div>
+    </div>
+
+    <!-- AÇIKLAMALAR -->
+    <div style="text-align: center; font-weight: bold; margin-bottom: 20px;">
+      <u>AÇIKLAMALAR</u>
+    </div>
+
+    <p>Müvekkilin [kısıtlı adayı ile yakınlık ilişkisi] olan [Kısıtlı Adı Soyadı], son yıllarda gelirini ve taşınmazlarını ihtiyaç dışı, sürdürülemez, kontrolsüz ve ailesinin zararına olacak şekilde harcamaktadır. Özellikle [kumar/bahis/lüks harcamalar/altın ve döviz bozdurma, başkalarına yüksek miktarda para aktarma gibi örnekler] ailesinin ekonomik geleceğini ciddi biçimde tehdit etmektedir.</p>
+
+    <p>Kısıtlı adayı, yakın geçmişte birçok taşınmazı değerinin altında devretmiş, yüksek meblağlı nakit varlıklarını elden çıkarmış ve aile bireylerinin geçimi için gerekli kaynakları tüketmiştir. Bu durum TMK m.406 kapsamında değerlendirilebilecek "malvarlığını kötü yönetme" ve "aileyi yoksulluğa sürükleme tehlikesi" oluşturmaktadır.</p>
+
+    <p>Dava açılmadan önce elde edilen [banka kayıtları, tanık beyanları, sosyal medya içerikleri vb.] ekte sunulmuştur. Ayrıca kısıtlı adayının malvarlığının tespiti için ilgili kurumlara müzekkere yazılmasını ve sosyal çevresinin tanık olarak dinlenmesini talep ediyoruz.</p>
+
+    <!-- HUKUKİ NEDENLER -->
+    <div style="margin-top: 20px;">
+      <u style="display: inline-block; width: 180px;">HUKUKİ NEDENLER</u>: TMK, HMK ve ilgili yasa hükümleri.<br>
+      <u style="display: inline-block; width: 180px;">DELİLLER</u>: Banka kayıtları, Tapu kayıtları, Tanık beyanları, Sosyal medya içerikleri, Gider belgeleri, Tutanaklar, Her türlü yasal delil.
+    </div>
+
+    <!-- SONUÇ VE TALEP -->
+    <div style="margin-top: 30px;">
+      <u style="display: inline-block; width: 180px;">SONUÇ ve TALEP</u>: Yukarıda arz ve izah edilen nedenlerle; [Kısıtlı Adı Soyadı]’nın TMK m.406 kapsamında kısıtlanmasına ve müvekkilin kendisine vasi olarak atanmasına, sosyal çevre araştırması yapılmasına ve tedbiren malvarlığına ilişkin geçici önlemlerin alınmasına karar verilmesini arz ve talep ederiz.
+    </div>
+
+    <!-- EKLER -->
+    <div style="margin-top: 30px;">
+      <u style="display: inline-block; width: 180px;">EK</u>: Vekaletname sureti ve delil listesi.
+    </div>
+
+    <!-- İMZA -->
+    <div style="margin-top: 40px; text-align: right;">
+      [Tarih]<br>
+      Davacı Vekili<br>
+      <strong>Av. Furkan Engin</strong>
+    </div>
+
+  </div>
+</div>
+
+<!-- KOPYALAMA SCRIPTİ -->
+<script>
+function kopyalaDilekce() {
+  const metin = `EK-2: Savurganlık Nedeniyle Vasi Atanması Talebi – Örnek Dava Dilekçesi
+
+SULH HUKUK MAHKEMESİ HAKİMLİĞİNE
+
+DAVACI (VASİ ADAYI): …
+VEKİLİ: Av. Furkan Engin
+KISITLI ADAYI: …
+DAVA KONUSU: Savurganlık ve malvarlığını kötü yönetme nedenine dayanarak, TMK m.406 kapsamında müvekkilin [anne/baba/kardeş]’ine vasi atanması talebidir.
+
+AÇIKLAMALAR:
+Müvekkilin [kısıtlı adayı ile yakınlık ilişkisi] olan [Kısıtlı Adı Soyadı], son yıllarda gelirini ve taşınmazlarını ihtiyaç dışı, sürdürülemez, kontrolsüz ve ailesinin zararına olacak şekilde harcamaktadır. Özellikle [kumar/bahis/lüks harcamalar/altın ve döviz bozdurma, başkalarına yüksek miktarda para aktarma gibi örnekler] ailesinin ekonomik geleceğini ciddi biçimde tehdit etmektedir.
+
+Kısıtlı adayı, yakın geçmişte birçok taşınmazı değerinin altında devretmiş, yüksek meblağlı nakit varlıklarını elden çıkarmış ve aile bireylerinin geçimi için gerekli kaynakları tüketmiştir. Bu durum TMK m.406 kapsamında değerlendirilebilecek "malvarlığını kötü yönetme" ve "aileyi yoksulluğa sürükleme tehlikesi" oluşturmaktadır.
+
+Dava açılmadan önce elde edilen [banka kayıtları, tanık beyanları, sosyal medya içerikleri vb.] ekte sunulmuştur. Ayrıca kısıtlı adayının malvarlığının tespiti için ilgili kurumlara müzekkere yazılmasını ve sosyal çevresinin tanık olarak dinlenmesini talep ediyoruz.
+
+HUKUKİ NEDENLER: TMK, HMK ve ilgili yasa hükümleri.
+DELİLLER: Banka kayıtları, Tapu kayıtları, Tanık beyanları, Sosyal medya içerikleri, Gider belgeleri, Tutanaklar, Her türlü yasal delil.
+
+SONUÇ ve TALEP:
+Yukarıda arz ve izah edilen nedenlerle; [Kısıtlı Adı Soyadı]’nın TMK m.406 kapsamında kısıtlanmasına ve müvekkilin kendisine vasi olarak atanmasına, sosyal çevre araştırması yapılmasına ve tedbiren malvarlığına ilişkin geçici önlemlerin alınmasına karar verilmesini arz ve talep ederiz.
+
+EK: Vekaletname sureti ve delil listesi.
+
+[Tarih]
+Davacı Vekili
+Av. Furkan Engin
+
+-----------------------------
+
+KONU HAKKINDA ÜCRETSİZ ÖN GÖRÜŞME YAPMAK İÇİN İLETİŞİME GEÇEBİLİRSİNİZ:  
+Av. Furkan Engin – info@furkanengin.av.tr`;
+
+  navigator.clipboard.writeText(metin).then(() => {
+    alert("Dilekçe metni başarıyla kopyalandı.");
+  }).catch((err) => {
+    alert("Kopyalama işlemi başarısız oldu.");
+  });
+}
+</script>
