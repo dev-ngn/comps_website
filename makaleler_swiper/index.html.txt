@@ -1,0 +1,194 @@
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<style>
+  .swiper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+
+  .swiper-slide {
+    height: auto;
+  }
+
+  .makale-karti {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-family: Georgia, serif;
+  }
+
+  .makale-karti:hover {
+    transform: scale(1.02);
+  }
+
+  .makale-karti img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .icerik {
+    padding: 20px;
+  }
+
+  .icerik span {
+    font-size: 13px;
+    color: #BD9D60;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+
+  .icerik h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #182434;
+  }
+
+  .icerik p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+
+  .icerik a {
+    color: #BD9D60;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #BD9D60;
+  }
+</style>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+<!-- EN YENİ MAKALE: > 
+
+<!-- Savurganlık Sebebiyle Vasi Atanması -->
+<div class="swiper-slide">
+  <div class="makale-karti" data-kategori="vesayet-hukuku kisiler-hukuku">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Savurganlık ve Vasi Atanması" style="width: 100%; height: auto; display: block;">
+    <div class="icerik">
+      <span>Vesayet Hukuku</span>
+      <h3>Savurganlık Sebebiyle Vasi Atanması</h3>
+      <p>
+        Kişinin malvarlığını kontrolsüzce tüketmesi, TMK’ya göre kısıtlama sebebidir. Yazımızda sürece ve dilekçe örneğine yer verilmiştir.
+
+      </p>
+      <a href="/savurganlik-vasi-atanmasi">Devamını oku →</a>
+      <div class="hover-line"></div>
+    </div>
+  </div>
+</div>
+    
+<!-- Makale 1 -->
+<div class="swiper-slide">
+  <div class="makale-karti">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Hukuki Danışmanlık">
+    <div class="icerik">
+      <span>İş Hukuku</span>
+      <h3>Fazla Mesai Ücreti Talebi</h3>
+      <p>Beyaz yaka çalışanların fazla mesai hakları ve ücret talepleri.</p>
+      <a href="#">Devamını oku →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Makale 2 -->
+<div class="swiper-slide">
+  <div class="makale-karti">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Mobbing Davası">
+    <div class="icerik">
+      <span>İş Hukuku</span>
+      <h3>Mobbing Davaları</h3>
+      <p>Ofis ortamında psikolojik tacize karşı dava süreci ve ispat yükü.</p>
+      <a href="#">Devamını oku →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Makale 3 -->
+<div class="swiper-slide">
+  <div class="makale-karti">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png">
+    <div class="icerik">
+      <span>Ticaret Hukuku</span>
+      <h3>Şirket Ortaklarının Hakları</h3>
+      <p>Limited şirketlerde ortakların kar payı, bilgi alma hakkı vs.</p>
+      <a href="#">Devamını oku →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Makale 4 -->
+<div class="swiper-slide">
+  <div class="makale-karti">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png">
+    <div class="icerik">
+      <span>Miras Hukuku</span>
+      <h3>Veraset İlamı Almak</h3>
+      <p>Mirasçılık belgesi Sulh Hukuk Mahkemesi ya da noterden alınabilir.</p>
+      <a href="#">Devamını oku →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Makale 5 (GÜNCELLEMENİ İSTEMEDİĞİN) -->
+<div class="swiper-slide">
+  <div class="makale-karti">
+    <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Savurganlık ve Vasi Atanması">
+    <div class="icerik">
+      <span>Vesayet Hukuku</span>
+      <h3>Savurganlık Sebebiyle Vasi Atanması</h3>
+      <p>Kişinin malvarlığını kontrolsüzce tüketmesi, TMK’ya göre kısıtlama sebebidir.</p>
+      <a href="/savurganlik-vasi-atanmasi">Devamını oku →</a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navigasyon Okları -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      0: {
+        slidesPerView: 1,
+      },
+    },
+  });
+</script>

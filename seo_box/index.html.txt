@@ -1,0 +1,251 @@
+<style>
+  .seo-acilir-kutu {
+    font-family: 'Cormorant Garamond', serif;
+    border: none;
+    border-radius: 6px;
+    background-color: #F5F7F8;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  .seo-kutu-baslik {
+    padding: 14px 20px;
+    font-weight: bold;
+    color: #182434;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  .seo-kutu-baslik h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #182434;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .seo-kutu-icerik {
+    padding: 16px 24px;
+    color: #182434;
+    font-size: 17px;
+    line-height: 1.7;
+    display: none;
+    text-align: justify;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .seo-kutu-acik .seo-kutu-icerik {
+    display: block;
+  }
+
+  .seo-ok {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .seo-kutu-acik .seo-ok {
+    transform: rotate(180deg);
+  }
+
+  .seo-ok path {
+    stroke: #BD9D60;
+    stroke-width: 2;
+    fill: none;
+  }
+</style>
+
+
+
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL ÜNLÜ AVUKAT & BAŞARILI HUKUK BÜROLARI</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>İstanbul’da hukuk alanında öne çıkan avukatlar ve hukuk büroları, yalnızca medyada tanınmakla değil; dava başarısı, uzmanlık alanı, etik duruşu ve müvekkil memnuniyetiyle de bilinir hale gelir. Bir avukatın “ünlü” olarak anılması, çoğu zaman üstlendiği önemli dosyalar ve toplumsal etki yaratan çalışmalarıyla ilişkilidir.</p>
+
+    <p>Ancak, avukat veya hukuk bürosu seçerken yalnızca popülerlik değil, profesyonel yeterlilik ve kişisel güven duygusu ön planda olmalıdır. Özellikle boşanma, miras, ceza, iş hukuku ve ticaret hukuku gibi hassas alanlarda, tercih edilecek hukukçunun deneyimi, çözüm odaklı yaklaşımı ve ulaşılabilirliği büyük önem taşır.</p>
+
+    <p>İstanbul’daki başarılı hukuk büroları, bireysel ve kurumsal müvekkillerine hem dava süreçlerinde hem de danışmanlık hizmetlerinde sistematik ve şeffaf bir destek sunar. Bu tür bürolarda yalnızca sonuç değil; sürecin her aşamasında güven, açıklık ve etik standartlar esas alınır.</p>
+
+    <p>Avukat Furkan Engin, uluslararası deneyimi, disiplinli çalışma prensibi ve farklı hukuk alanlarındaki uzmanlığı ile müvekkillerine güvenilir hukuki destek sağlamayı hedeflemektedir. Bu yaklaşım, uzun vadeli iş birliği ve sürdürülebilir hukuk hizmeti anlayışıyla birleştiğinde, danışan memnuniyeti kaçınılmaz hale gelir.</p>
+  </div>
+</div>
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL AVUKAT & HUKUK BÜROSU</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>İstanbul gibi büyük bir şehirde hukuki desteğe ihtiyaç duyan bireyler için doğru <strong>avukatı bulmak</strong>, zaman zaman karmaşık bir sürece dönüşebilir. Internet üzerinden yapılan “<strong>avukat arama</strong>”, “<strong>avukat sorgulama</strong>” ya da “<strong>boşanma avukatı</strong>” gibi aramalar, bu ihtiyacın ne kadar yaygın olduğunu göstermektedir.</p>
+
+    <p>Birçok kişi, hukuki bir sorunla karşılaştığında nereden başlayacağını bilemez. Bu noktada bir <strong>hukuk bürosu</strong> ile iletişime geçmek, sürecin başında doğru yönlendirme almak açısından büyük önem taşır. Avukat seçimi yalnızca uzmanlığa değil, aynı zamanda güvenilirliğe ve ulaşılabilirliğe de dayanmalıdır.</p>
+
+    <p>İstanbul’daki hukuk büroları çok sayıda alanda hizmet vermektedir: Aile ve boşanma hukuku, miras uyuşmazlıkları, ticaret ve şirketler hukuku, kira ve iş davaları en sık karşılaşılanlardandır. Bir <strong>avukat tavsiyesi</strong> ararken sadece dava kazanma oranı değil, müvekkil ile kurulan iletişim kalitesi de göz önünde bulundurulmalıdır.</p>
+
+    <p><strong>Av. Furkan Engin</strong> tarafından kurulan hukuk bürosu, İstanbul’da profesyonel ve etik ilkelere bağlı bir hizmet sunmaktadır. İster danışmanlık ister dava takibi olsun, her müvekkil ile doğrudan ve şeffaf bir iletişim kurulması esas alınır.</p>
+
+    <p>İstanbul’da bir avukata ihtiyacınız varsa, doğru tercihi yapmak için önceliğiniz; uzmanlık, açıklık ve güvendir. Bu değerler üzerine kurulu bir hukuk bürosu ile çalışmak, yalnızca mevcut sorununuzu çözmekle kalmaz, uzun vadede hukuki güvenliğinizi de teminat altına alır.</p>
+  </div>
+</div>
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL HUKUKİ DANIŞMANLIK</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>İstanbul’da faaliyet gösteren şirketler için yalnızca dava takibi değil, <strong>hukuki danışmanlık hizmeti</strong> de artık vazgeçilmez bir ihtiyaç haline gelmiştir. Özellikle <strong>KVKK danışmanlığı</strong>, <strong>iş hukuku danışmanlığı</strong> ve <strong>şirket sözleşmelerinin hazırlanması</strong> gibi alanlarda uzmanlaşmış hukuk bürolarına talep artmaktadır.</p>
+
+    <p>Birçok kurum, yasal yükümlülüklerini yerine getirmek ve potansiyel hukuki riskleri en aza indirmek için dış kaynaklı <strong>hukuki danışmanlık</strong> almayı tercih etmektedir. <strong>Ticaret hukuku avukatı</strong>, <strong>KVKK uyum danışmanlığı</strong> ve <strong>iş hukuku uzmanı</strong> gibi destekler, firmaların günlük operasyonlarını güvence altına almak adına büyük rol oynar.</p>
+
+    <p>İstanbul gibi dinamik ve rekabetçi bir şehirde, şirketlerin ihtiyaç duyduğu hukuk hizmetleri hem sektörel hem de mevzuata özel farklılıklar gösterir. Bu nedenle, danışmanlık sürecinin şirketin yapısına ve faaliyet alanına uygun şekilde yürütülmesi büyük önem taşır.</p>
+
+    <p><strong>Av. Furkan Engin</strong> tarafından yürütülen danışmanlık faaliyetleri, şirketlerin KVKK, iş hukuku, ticaret hukuku ve sözleşme süreçleri başta olmak üzere birçok alanda kapsamlı ve güncel çözümler sunar. Almanya ve Türkiye’de edinilen çok yönlü deneyim ile hizmet verilen müvekkillerin her biri için özel, sürdürülebilir ve uygulanabilir stratejiler geliştirilmektedir.</p>
+  </div>
+</div>
+<style>
+  .seo-acilir-kutu {
+    font-family: 'Cormorant Garamond', serif;
+    border: none;
+    border-radius: 6px;
+    background-color: #F5F7F8;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  .seo-kutu-baslik {
+    padding: 14px 20px;
+    font-weight: bold;
+    color: #182434;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  .seo-kutu-baslik h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #182434;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .seo-kutu-icerik {
+    padding: 16px 24px;
+    color: #182434;
+    font-size: 17px;
+    line-height: 1.7;
+    display: none;
+    text-align: justify;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .seo-kutu-acik .seo-kutu-icerik {
+    display: block;
+  }
+
+  .seo-ok {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .seo-kutu-acik .seo-ok {
+    transform: rotate(180deg);
+  }
+
+  .seo-ok path {
+    stroke: #BD9D60;
+    stroke-width: 2;
+    fill: none;
+  }
+</style>
+
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL BOŞANMA AVUKATI</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>Boşanma süreci, taraflar için hem duygusal hem de hukuki olarak karmaşık bir dönemdir. İstanbul gibi nüfus yoğun ve dava sayısının fazla olduğu bir şehirde, doğru bir <strong>boşanma avukatı</strong> ile çalışmak, bu süreci daha sağlıklı ve hızlı yürütmek adına önemlidir.</p>
+
+    <p>Müvekkiller genellikle "<strong>boşanma davası nasıl açılır</strong>", "<strong>boşanma davası dİlekçesİ</strong>", "<strong>e-devlet üzerinden boşanma davası açma</strong>" gibi sorularla yola çıkar. Arama motoru verilerine göre, bu sorular her ay binlerce kişi tarafından sorulmakta ve bilgiye erişim aranmaktadır.</p>
+
+    <p>Boşanma davaları; <strong>çekismeli</strong> veya <strong>anlaşmalı</strong> şekilde yürüyebilir. Her iki durum için de izlenecek yollar farklıdır ve hukuki prosedürlere dikkat edilmesi gerekir. Bu nedenle alanında uzman bir <strong>İstanbul boşanma avukatı</strong> ile çalışmak, hem sürecin hızlı ilerlemesini hem de hak kaybının önlenmesini sağlar.</p>
+
+    <p><strong>Av. Furkan Engin</strong> tarafından yönetilen hukuk ofisi, boşanma davalarında müvekkillerine şeffaf, empati odaklı ve uzmanlığa dayalı bir hizmet sunmayı amaçlar. Süreç boyunca mücadeleci bir tutum yerine çözüm odaklı yaklaşımla, tarafların menfaatleri en iyi şekilde korunur.</p>
+
+    <p>"<strong>Avukatsız boşanma nasıl olur</strong>", "<strong>tek celsede nasıl boşanabilirim</strong>" gibi sorular da sıkça karşılaşılan ifadelerdir. Her ne kadar taraflar kendi başlarına dava açabilse de, <strong>hukuki bilgi eksikliği</strong> telafisi güç hatalara yol açabilir. Bu nedenle, bir avukat desteği ile ilerlemek hem hak kaybını önler hem de süreci daha hızlı ve doğru yönetmenizi sağlar.</p>
+
+    <p>İstanbul’da bir <strong>boşanma avukatı</strong> arayışı içindeyseniz, önceliğiniz uzmanlık, güvenilirlik ve iletişime açıklık olmalıdır. Doğru avukatla çalışmak, yalnızca hukuki değil, psikolojik anlamda da sizi güvende hissettirecektir.</p>
+  </div>
+</div>
+
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL MİRAS AVUKATI</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>Miras hukuku, hem aile ilişkilerini hem de malvarlığı paylaşımını doğrudan etkileyen hassas bir hukuk dalıdır. İstanbul’da <strong>miras avukatı</strong> arayışında olan kişiler genellikle vasiyetname düzenlenmesi, mirasın reddi, intikal işlemleri ve miras ortaklığının giderilmesi gibi konularda destek talep eder.</p>
+
+    <p>Miras davaları; kardeşler arasında mal paylaşımı, ölen kişinin borçları, saklı pay ihlalleri gibi çok yönlü uyuşmazlıklar barındırabilir. Bu nedenle, sürecin başından itibaren uzman bir <strong>miras avukatı</strong> ile çalışmak, hem zamandan hem de olası hak kayıplarından tasarruf sağlar.</p>
+
+    <p>İstanbul’daki miras davalarında sıklıkla karşılaşılan sorunlardan bazıları; miras bırakanın sonradan yapılan vasiyetname ile önceki mal paylaşımını değiştirmesi, paydaşlardan birinin mirası reddetmesi ya da tereke mallarının gizlenmesidir. Bu gibi durumlarda deneyimli bir <strong>İstanbul miras avukatı</strong>, müvekkiline uygun yasal yolları detaylı şekilde sunar.</p>
+
+    <p><strong>Av. Furkan Engin</strong>, miras hukukuna ilişkin davalarda; veraset ilamı çıkarılması, mirasın reddi, tapu iptali ve ortaklığın giderilmesi davalarında kapsamlı hukuki destek sağlamaktadır. Almanya ve Türkiye hukuk sistemlerindeki uygulamalara hâkimiyet, yurtdışındaki mirasçılar için de ayrıcalıklı çözümler sunmayı mümkün kılar.</p>
+
+    <p>İstanbul’da bir <strong>miras avukatı</strong> ile çalışmak istiyorsanız, tecrübeye, açıklığa ve çözüm odaklılığa önem veren bir hukuk ofisi ile iletişime geçmeniz büyük fark yaratacaktır.</p>
+  </div>
+</div>
+<div class="seo-acilir-kutu" onclick="this.classList.toggle('seo-kutu-acik')">
+  <div class="seo-kutu-baslik">
+    <h2>İSTANBUL İŞ DAVASI AVUKATI</h2>
+    <svg class="seo-ok" viewBox="0 0 24 24">
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </div>
+  <div class="seo-kutu-icerik">
+    <p>İşten çıkarılan veya hakları ihlal edilen işçiler için <strong>iş davası</strong> açmak, hukuki sürecin en önemli adımıdır. İstanbul gibi büyük şehirlerde, işçi-işveren uyuşmazlıklarının sayısı oldukça fazladır. Bu nedenle, <strong>iş davası avukatı</strong> desteği almak, hak kaybını önlemek açısından kritik öneme sahiptir.</p>
+
+    <p>En sık karşılaşılan konular arasında <strong>kıdem tazminatı</strong>, <strong>ihbar tazminatı</strong>, <strong>fazla mesai ücretleri</strong>, <strong>yıllık izin alacakları</strong> ve <strong>işe iade davaları</strong> yer alır. Tüm bu süreçler, yasal sürelere ve delillere dayalı olarak dikkatle yürütülmelidir.</p>
+
+    <p>İş Mahkemesi’ne dava açmadan önce zorunlu olarak başvurulması gereken <strong>arabuluculuk süreci</strong> de, uzman bir avukat eşliğinde çok daha verimli geçmektedir. Arabuluculuk tutanağının doğru düzenlenmesi, ileride açılacak dava sürecini doğrudan etkiler.</p>
+
+    <p><strong>Av. Furkan Engin</strong>, işçi hakları konusunda uzmanlaşmış olup; iş akdinin feshi sonrası tazminat alacaklarının hesaplanması, arabuluculuk görüşmelerinin yürütülmesi ve dava sürecinin titizlikle takibi konusunda müvekkillerine destek vermektedir.</p>
+
+    <p>İstanbul’da bir <strong>iş davası avukatı</strong> ile çalışmak, yalnızca maddi kazanım değil, psikolojik olarak da haklarınızı savunma gücü elde etmenizi sağlar. Tüm sürecin güvenilir bir hukukçu rehberliğinde ilerlemesi, uzun vadede hem işçi hem de işveren açısından en sağlıklı sonucu doğurur.</p>
+  </div>
+</div>

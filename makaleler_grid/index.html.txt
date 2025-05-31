@@ -1,0 +1,78 @@
+<style>
+  .makale-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .makale-karti {
+    flex: 0 0 calc(50% - 15px); /* iki kart yanyana */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    font-family: 'Georgia', serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .makale-karti:hover {
+    transform: scale(1.02);
+  }
+
+  .hover-line {
+    width: 0;
+    height: 2px;
+    background-color: #BD9D60;
+    margin-top: 16px;
+    transition: width 0.3s ease;
+  }
+
+  .makale-karti:hover .hover-line {
+    width: 60%;
+  }
+
+  @media (max-width: 768px) {
+    .makale-karti {
+      flex: 0 0 100%;
+    }
+  }
+</style>
+
+
+
+<div class="makale-wrapper">
+    
+<div class="makale-karti" data-kategori="vesayet-hukuku kisiler-hukuku">
+  <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Savurganlık ve Vasi Atanması" style="width: 100%; height: auto; display: block;">
+  <div style="padding: 20px;">
+    <span style="font-size: 13px; color: #BD9D60; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase;">Vesayet Hukuku</span>
+    <h3 style="margin-top: 10px; font-size: 20px; color: #182434;">Savurganlık Sebebiyle Vasi Atanması</h3>
+    <p style="font-size: 15px; color: #444; line-height: 1.6; margin: 15px 0;">
+      Kişinin malvarlığını kontrolsüzce tüketmesi, TMK’ya göre kısıtlama sebebidir. Yazımızda sürece ve dilekçe örneğine yer verilmiştir.
+
+    </p>
+    <a href="/savurganlik-vasi-atanmasi" style="display: inline-block; margin-top: 10px; color: #BD9D60; font-weight: 600; text-decoration: none;">Devamını oku →</a>
+    <div class="hover-line"></div>
+  </div>
+</div>   
+    <!-- Fazla Mesai Ücreti -->
+<div class="makale-karti" data-kategori="vesayet-hukuku kisiler-hukuku">
+  <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/Adsiz-tasarim-7.png" alt="Savurganlık ve Vasi Atanması" style="width: 100%; height: auto; display: block;">
+  <div style="padding: 20px;">
+    <span style="font-size: 13px; color: #BD9D60; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase;">Vesayet Hukuku</span>
+    <h3 style="margin-top: 10px; font-size: 20px; color: #182434;">Savurganlık Sebebiyle Vasi Atanması</h3>
+    <p style="font-size: 15px; color: #444; line-height: 1.6; margin: 15px 0;">
+      Kişinin malvarlığını kontrolsüzce tüketmesi, TMK’ya göre kısıtlama sebebidir. Yazımızda sürece ve dilekçe örneğine yer verilmiştir.
+
+    </p>
+    <a href="/savurganlik-vasi-atanmasi" style="display: inline-block; margin-top: 10px; color: #BD9D60; font-weight: 600; text-decoration: none;">Devamını oku →</a>
+    <div class="hover-line"></div>
+  </div>
+</div> 
+
+
+</div>

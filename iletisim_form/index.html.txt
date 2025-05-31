@@ -1,0 +1,29 @@
+<div class="ozel-form-wrapper">
+  <h3>Danışmak istediğiniz bir konu mu var?</h3>
+
+  <div class="ozel-form-grid">
+    <div class="form-item">
+      <label>İsim Soyisim</label>
+      [text* your-name placeholder "Müvekkil Adayı"]
+    </div>
+
+    <div class="form-item">
+      <label>E-posta Adresi</label>
+      [email* your-email placeholder "ornek@mail.com"]
+    </div>
+
+    <div class="form-item-full">
+      <label>Konu</label>
+      [text* your-subject placeholder "Danışmak istediğiniz konu başlığı"]
+    </div>
+
+    <div class="form-item-full">
+      <label>Açıklama</label>
+      [textarea* your-message placeholder "Kısaca durumu açıklayın, konu hakkında ön değerlendirmemizi size ücretsiz olarak iletelim..."]
+    </div>
+
+    <div class="form-item-full" style="text-align:center;">
+      [submit "Gönder"]
+    </div>
+  </div>
+</div>

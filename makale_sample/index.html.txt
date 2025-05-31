@@ -1,0 +1,219 @@
+<head>
+  <meta name="format-detection" content="telephone=no">
+</head>
+
+<style>
+  @media (max-width: 768px) {
+    .icerik-kapsayici {
+      padding: 20px 3vw !important;
+    }
+    #icindekiler-karti {
+      padding: 4vw !important;
+      margin-bottom: 20px !important;
+    }
+    #icindekiler-karti h3 {
+      font-size: 18px !important;
+    }
+    #icindekiler-liste {
+      font-size: 13px !important;
+      margin-top: 12px !important;
+      padding-left: 4px !important;
+    }
+    section h2 {
+      margin-top: 30px !important;
+      font-size: 22px !important;
+    }
+    section h3 {
+      font-size: 18px !important;
+      margin-top: 20px !important;
+    }
+    blockquote {
+      padding-left: 10px !important;
+      margin-left: 0 !important;
+    }
+    ul {
+      padding-left: 20px !important;
+    }
+  }
+</style>
+
+<div class="icerik-kapsayici" style="border: 1px solid #BD9D60; border-radius: 12px; background-color: #fff; padding: 40px 5vw; box-shadow: 0 8px 16px rgba(0,0,0,0.08); font-family: Georgia, serif; max-width: 100%; box-sizing: border-box;">
+
+  <!-- İÇİNDEKİLER -->
+  <div id="icindekiler-karti" style="border: 1px solid #BD9D60; border-radius: 12px; background-color: #fff; padding: 5vw; margin-bottom: 30px; box-shadow: 0 8px 16px rgba(0,0,0,0.08); position: relative; font-family: Georgia, serif; cursor: pointer;" onclick="toggleIcindekiler(event)">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;">
+      <div style="height: 2px; width: 40px; background-color: #BD9D60;"></div>
+      <h3 style="color: #BD9D60; font-size: 20px; font-weight: bold; margin: 0; text-align: center;">İçindekiler</h3>
+      <div style="height: 2px; width: 40px; background-color: #BD9D60;"></div>
+    </div>
+
+  <ul id="icindekiler-liste" style="list-style: none; padding-left: 0; margin-top: 20px; font-size: 16px; line-height: 1.9; color: #182434;">
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('vesayet-nedir')" style="color: #182434; text-decoration: none;">1. Vesayet Nedir ve Hangi Hallerde Uygulanır?</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('vesayeti-gerektiren-haller')" style="color: #182434; text-decoration: none;">2. Vesayeti Gerektiren Haller</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('savurganlik-vasi')" style="color: #182434; text-decoration: none;">3. Savurganlık Nedeniyle Vasi Atanması</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('yargitay-ictihat')" style="color: #182434; text-decoration: none;">4. Yargıtay İçtihatlarında Değerlendirme</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('delil')" style="color: #182434; text-decoration: none;">5. Delillendirme ve Re’sen Araştırma</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('surec')" style="color: #182434; text-decoration: none;">6. Vesayet Davası Süreci</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('hukuki-sonuc')" style="color: #182434; text-decoration: none;">7. Hukuki Sonuçlar</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('sss')" style="color: #182434; text-decoration: none;">8. Sıkça Sorulan Sorular</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('ek1')" style="color: #182434; text-decoration: none;">EK-1: Yargıtay İçtihat</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToSectionWithOffset('ek2')" style="color: #182434; text-decoration: none;">EK-2: Örnek Dilekçe</a></li>
+  </ul>
+</div>
+
+<script>
+  function toggleIcindekiler(event) {
+    if (event.target.closest('a')) return;
+    const liste = document.getElementById("icindekiler-liste");
+    liste.style.display = (liste.style.display === "none") ? "block" : "none";
+  }
+
+  function scrollToSectionWithOffset(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -80;
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
+</script>
+
+
+<section style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8;">
+  <h2 id="vesayet-nedir" style="margin-top: 50px; font-size: 26px; color: #182434;">1. Vesayet Nedir ve Hangi Hallerde Uygulanır?</h2>
+  <p>Vesayet, Türk Medeni Kanunu’nda düzenlenmiş olup, velayet altında bulunmayan küçükler ile belirli nedenlerle kısıtlanması gereken ergin kişilerin korunmasını amaçlayan bir hukuk kurumudur. Bu sistem, bireylerin hem kişilik haklarının hem de malvarlıklarının korunmasını sağlamak üzere devlet gözetiminde işler.</p>
+  <p>Vesayet, kamu düzenine ilişkin bir konu olduğundan mahkemelerce re’sen araştırma ilkesi geçerlidir.</p>
+
+  <h2 id="vesayeti-gerektiren-haller" style="margin-top: 50px; font-size: 26px; color: #182434;">2. Vesayeti Gerektiren Haller (TMK m.404 – 408)</h2>
+  <p>4721 sayılı Türk Medeni Kanunu’na göre vesayeti gerektiren başlıca haller:</p>
+  <ul>
+    <li>Velayet altında olmayan küçükler (m.404)</li>
+    <li>Akıl hastalığı, akıl zayıflığı (m.405)</li>
+    <li>Savurganlık, alkol/uyuşturucu bağımlılığı, kötü yaşam tarzı, malvarlığını kötü yönetim (m.406)</li>
+    <li>Özgürlüğü bağlayıcı ceza (m.407)</li>
+    <li>Kişinin kendi isteğiyle vesayet altına alınma talebi (m.408)</li>
+  </ul>
+  
+
+</section>
+
+<section style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8;">
+
+  <h2 id="savurganlik-vasi" style="margin-top: 50px; font-size: 26px; color: #182434;">3. Savurganlık Nedeniyle Vasi Atanması – TMK m.406</h2>
+  <p><strong>Yasal Dayanak, Türk Medeni Kanunu m.406:</strong></p>
+  <blockquote style="border-left: 3px solid #BD9D60; padding-left: 15px; margin-left: 0;">
+    Savurganlığı, alkol veya uyuşturucu madde bağımlılığı, kötü yaşama tarzı veya malvarlığını kötü yönetmesi sebebiyle kendisini veya ailesini darlık veya yoksulluğa düşürme tehlikesine yol açan ve bu yüzden devamlı korunmaya ve bakıma muhtaç olan ya da başkalarının güvenliğini tehdit eden her ergin kısıtlanır.
+  </blockquote>
+  <p>Bu hükme göre, kısıtlanma için aranan iki temel unsur vardır:</p>
+  <ul>
+    <li><strong>Objektif unsur:</strong> Savurganlık, kötü yaşam tarzı, bağımlılık, malvarlığını kötü yönetme gibi davranışlar</li>
+    <li><strong>Sonuç unsuru:</strong> Kendisini veya ailesini yoksulluğa düşürme tehlikesi</li>
+  </ul>
+  <p>Yargıtay içtihatlarına göre, yalnızca bu davranışların varlığı yeterli olmayıp, tasarrufa konu malvarlığı unsurlarının genel malvarlığına oranı da dikkate alınarak davranışların ekonomik sonuçlarının ciddi tehdit oluşturup oluşturmadığı değerlendirilmelidir.</p>
+
+  <h2 id="yargitay-ictihat" style="margin-top: 50px; font-size: 26px; color: #182434;">4. Savurganlık Yargıtay İçtihadında Nasıl Değerlendirilir?</h2>
+  <p>Savurganlık, kişinin malvarlığını veya gelirini ihtiyaç dışı, kontrolsüz ve sürdürülemez biçimde tüketmesi; çoğu zaman kumar, bahis, aşırı harcamalar ve lüks yaşam tercihleri gibi yollarla mali güvenliğini tehlikeye atmasıdır. Ancak bu davranışların, vesayet kararı verilebilmesi için, sadece varlığı yeterli değildir.</p>
+  <p>Savurganlık, kişiyi veya ailesini yoksulluğa düşürme tehlikesi doğurduğunda ve bu durum sosyal-ekonomik dengeyi bozacak seviyeye ulaştığında TMK m.406 kapsamında kısıtlamaya yol açabilir.</p>
+
+  <p><strong>⚖️ Yargıtay içtihatlarına göre:</strong> Savurganlık veya malvarlığının kötü yönetimi tek başına kısıtlama için yeterli değildir. Bu davranışların ekonomik ve sosyal sonuçlarının da dikkate alınması gerekir.</p>
+  <p><strong>📌 Yargıtay 8. Hukuk Dairesi, 2021/561 E., 2021/4437 K., 26.05.2021:</strong></p>
+  <blockquote style="border-left: 3px solid #BD9D60; padding-left: 15px; margin-left: 0;">
+    ...tasarrufa konu malvarlığı unsurlarının genel malvarlığı unsurlarına oranının, kısıtlı adayının TMK 406. maddesi gereğince savurganlık veya mal varlığının kötü yönetimi sebebiyle vesayet altına alınması hususunda gerekli koşulları tam mahiyetiyle sağlamadığı...
+  </blockquote>
+  <p>Bu kararda, kısıtlama için yalnızca savurgan davranışların varlığının değil, bu davranışların kişinin genel malvarlığı üzerinde ciddi tehdit oluşturacak düzeyde olması gerektiği açıkça vurgulanmıştır.</p>
+
+  <p>Aynı kararda ayrıca: <em>“...geçiminde ve yaşantısında kendisini ve ailesini darlık veya yoksulluğa düşürme tehlikesine yol açacak bir durum bulunmadığı...”</em> ifadesine yer verilerek, TMK m.406’da aranan sonuç unsurunun gerçekleşmemesi halinde kısıtlama kararı verilemeyeceği özellikle belirtilmiştir.</p>
+
+</section>
+
+<section style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8;">
+
+  <h2 id="delil" style="margin-top: 50px; font-size: 26px; color: #182434;">5. Kısıtlama Kararlarında Delillendirme ve Re’sen Araştırma Yükümlülüğü</h2>
+  <p>Vesayet davalarında, mahkemenin karar verirken yalnızca tıbbi raporlara dayanması çoğu zaman yetersiz kalmaktadır. Özellikle malvarlığının kötü yönetimi veya savurganlık gibi TMK m.406 kapsamında yer alan kısıtlama nedenlerinde, delillerin kapsamlı biçimde toplanması ve değerlendirilmesi zorunludur.</p>
+
+  <p><strong>📌 Yargıtay 8. Hukuk Dairesi, 2018/12126 E., 2019/3197 K., 26.03.2019:</strong></p>
+  <blockquote style="border-left: 3px solid #BD9D60; padding-left: 15px; margin-left: 0;">
+    ...vesayet davasında yalnızca sağlık raporu esas alınarak karar verilmesi hukuka uygun değildir; malvarlığının kötü yönetimi veya savurganlık iddiaları varsa, bunlar yönünden re’sen delil toplanmalı ve ayrıca değerlendirme yapılmalıdır...
+  </blockquote>
+
+  <p>Bu karar, hem TMK m.405 kapsamında akıl hastalığı gerekçesiyle, hem de TMK m.406 kapsamında malvarlığının kötü yönetimi gerekçesiyle açılan vasi tayini talepli bir dava sonucunda verilmiştir.</p>
+  <p>Kararda, mahkemelerin re’sen araştırma yükümlülüğü (TMK m.4, HMK m.33) gereği, sadece sağlık raporuna dayanılarak karar verilemeyeceği vurgulanmıştır.</p>
+  <p>Özellikle malvarlığına ilişkin iddialarda, kişinin yaptığı mali tasarrufların içeriği, sıklığı, oranı ve etkileri dikkate alınmalı, toplum ve aile üzerindeki yoksullaştırıcı etkisi somut delillerle desteklenmelidir.</p>
+
+</section>
+
+<section id="surec" style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8; margin-top: 50px;">
+
+  <h2 style="font-size: 26px; color: #182434;">6. Vesayet Davası Açılması Süreci</h2>
+
+  <h3 style="font-size: 20px; color: #182434;">6.1. Yetkili ve Görevli Mahkeme</h3>
+  <p><strong>Görevli Mahkeme:</strong> Sulh Hukuk Mahkemesi (TMK m.397)</p>
+  <p><strong>Yetkili Mahkeme:</strong> Kısıtlı adayının yerleşim yeri mahkemesi (TMK m.411)</p>
+
+  <h3 style="font-size: 20px; color: #182434;">6.2. Kısıtlı Adayının Dinlenmesi Zorunluluğu</h3>
+  <p>TMK m.409 uyarınca, savurganlık veya kötü yönetim sebebiyle kimse, mahkemece bizzat dinlenmeden kısıtlanamaz. Bu kapsamda hâkim, duruşmaya çağırarak kişinin ayrıntılı ifadesini almalı, gerekirse tanıkları dinlemeli ve hesap hareketleri ile sosyal alışkanlıklarını da değerlendirmelidir.</p>
+
+  <h3 style="font-size: 20px; color: #182434;">6.3. Deliller ve Tedbir Talepleri</h3>
+  <p>Savurganlık nedeniyle vesayet taleplerinde kullanılabilecek başlıca deliller şunlardır:</p>
+  <ul>
+    <li>Banka hesap hareketleri</li>
+    <li>Tanık beyanları (eş, çocuklar, kardeşler)</li>
+    <li>Sosyal medya içerikleri (ganyan, bahis vs.)</li>
+    <li>Ziynet satışı veya altın talebi iddiaları</li>
+    <li>Kira, market, çocuk giderlerinin diğer eş tarafından karşılandığını ispatlayan belgeler</li>
+  </ul>
+  <p>Ayrıca, TMK m.427 gereğince, mal kaçırma veya tahrip riski varsa taşınır ve taşınmaz mallara tedbir konulması, bankalara bloke yazısı yazılması talep edilebilir.</p>
+
+</section>
+
+<section id="hukuki-sonuc" style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8; margin-top: 50px;">
+
+  <h2 style="font-size: 26px; color: #182434;">7. Kısıtlama Kararı Sonrası Hukuki Sonuçlar</h2>
+
+  <h3 style="font-size: 20px; color: #182434;">7.1. Bağışların İptali (TBK m.286/2)</h3>
+  <p>Kısıtlı adayının yaptığı bağışlar, vesayet davasının açıldığı tarihten geriye doğru 1 yıl içinde yapılmışsa ve mahkemece savurganlık nedeniyle kısıtlama kararı verilmişse, bu bağışlar mahkeme kararı ile iptal edilebilir.</p>
+
+  <h3 style="font-size: 20px; color: #182434;">7.2. Vasi Atanması (TMK m.414)</h3>
+  <p>Mahkeme, vasi olarak öncelikle eş veya yakın hısımlardan birini atar. Bu kişilerin uygun bulunmaması durumunda, uygun bir üçüncü kişi veya avukat da atanabilir.</p>
+
+  <h3 style="font-size: 20px; color: #182434;">7.3. Alternatif: Yasal Danışman Atanması (TMK m.429)</h3>
+  <p>Yargıtay uygulamalarında, kısıtlama için gerekli şartların tam oluşmadığı ancak bireyin bazı konularda yönlendirmeye ihtiyaç duyduğu durumlarda yasal danışman atanması yoluna da gidilebilmektedir.</p>
+
+</section>
+
+<section id="sss" style="font-family: Georgia, serif; color: #182434; font-size: 18px; line-height: 1.8; margin-top: 50px;">
+
+  <h2 style="font-size: 26px; color: #182434;">8. Sıkça Sorulan Sorular</h2>
+
+  <p><strong>“Savurganlık” neyle ispat edilir?</strong><br>
+  Banka hareketleri, maaş gelirlerinin nereye harcandığı, tanık ifadeleri ve sosyal medya içerikleri ile desteklenebilir.</p>
+
+  <p><strong>Dava ne kadar sürer?</strong><br>
+  Mahkemeye ve dosya yoğunluğuna göre değişmekle birlikte, genellikle 3–6 ay içinde karar verilebilir.</p>
+
+  <p><strong>Kısıtlı kişi itiraz ederse?</strong><br>
+  Mahkeme, TMK m.409 gereği kişiyi dinlemek ve gerekirse resmî sağlık kurulu raporu almak zorundadır. İtirazların hukuka uygun değerlendirilmesi gerekir.</p>
+
+  <h2 style="font-size: 26px; color: #182434; margin-top: 40px;">Sonuç: Ailenizin Ekonomik Geleceği İçin Gerekirse Müdahale Edin</h2>
+
+  <p>Savurganlık, bireyin özgürlüğü gibi görünse de, ailesinin ve toplumun ekonomik güvenliğini tehdit ettiği noktada hukuki müdahaleyi gerektirir.</p>
+
+  <p>Eğer bir yakınınız, ailesini yoksulluğa sürükleyecek düzeyde kontrolsüz harcamalar yapıyorsa, TMK m.406 kapsamında vesayet davası açılması ve vasi atanması mümkündür.</p>
+
+  <p><strong>📌 Sulh Hukuk Mahkemesi</strong> nezdinde açılacak bu davalarda, hukuki süreci doğru yönetmek için alanında uzman bir avukattan destek almanız hak kayıplarının önüne geçecektir.</p>
+
+</section>
+
+<script>
+  function scrollToSectionWithOffset(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -150; // Başlığın yukarısında 5-6 satırlık boşluk bıraksın
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
+</script>
+
+
+</div>

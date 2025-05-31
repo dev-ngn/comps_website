@@ -1,0 +1,56 @@
+<a href="#bosanma-hukuku-sayfasi" style="text-decoration: none; display: block; width: 100%;">
+  <div style="
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 20px 24px;
+    background-color: #F5F7F8;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+  " onmouseover="this.style.boxShadow='0 8px 20px rgba(0,0,0,0.08)'; this.style.transform='translateY(-2px)'; this.querySelector('.sol-cizgi').style.width='6px';"
+     onmouseout="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'; this.style.transform='none'; this.querySelector('.sol-cizgi').style.width='0';">
+
+    <div class="sol-cizgi" style="
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 0;
+      background-color: #BD9D60;
+      border-radius: 6px 0 0 6px;
+      transition: all 0.3s ease;
+    "></div>
+
+    <div style="flex-shrink: 0;">
+      <img src="https://furkanengin.av.tr/wp-content/uploads/2025/05/aile-hukuku-44.png" style="
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+        display: block;
+        margin-top: 2px;
+      ">
+    </div>
+
+    <div style="
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+    ">
+      <h2 style="
+        font-size: 18px;
+        font-weight: 700;
+        color: #182434;
+        margin: 0 0 8px;
+      ">Boşanma Hukuku</h2>
+      <p style="
+        font-size: 15px;
+        color: #555;
+        margin: 0;
+        line-height: 1.6;
+      ">Anlaşmalı ve çekişmeli boşanma davalarında müvekkillerin maddi, manevi haklarını gözeterek temsil sağlamaktayız.</p>
+    </div>
+  </div>
+</a>
